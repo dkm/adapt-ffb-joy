@@ -1,0 +1,308 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:teensy
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R2
+U 1 1 58513394
+P 8100 4650
+F 0 "R2" V 8180 4650 50  0000 C CNN
+F 1 "2k2" V 8100 4650 50  0000 C CNN
+F 2 "" V 8030 4650 50  0000 C CNN
+F 3 "" H 8100 4650 50  0000 C CNN
+	1    8100 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5851341D
+P 8600 4800
+F 0 "R1" V 8680 4800 50  0000 C CNN
+F 1 "2k2" V 8600 4800 50  0000 C CNN
+F 2 "" V 8530 4800 50  0000 C CNN
+F 3 "" H 8600 4800 50  0000 C CNN
+	1    8600 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R Rmidi
+U 1 1 58513571
+P 7750 4500
+F 0 "Rmidi" V 7830 4500 50  0000 C CNN
+F 1 "220" V 7750 4500 50  0000 C CNN
+F 2 "" V 7680 4500 50  0000 C CNN
+F 3 "" H 7750 4500 50  0000 C CNN
+	1    7750 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 585135D2
+P 8150 2800
+F 0 "C1" H 8175 2900 50  0000 L CNN
+F 1 "1nF" H 8175 2700 50  0000 L CNN
+F 2 "" H 8188 2650 50  0000 C CNN
+F 3 "" H 8150 2800 50  0000 C CNN
+	1    8150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 585136C9
+P 8500 2800
+F 0 "C2" H 8525 2900 50  0000 L CNN
+F 1 "1nF" H 8525 2700 50  0000 L CNN
+F 2 "" H 8538 2650 50  0000 C CNN
+F 3 "" H 8500 2800 50  0000 C CNN
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT Rx
+U 1 1 58513739
+P 6750 2650
+F 0 "Rx" H 6750 2570 50  0000 C CNN
+F 1 "10k LIN" H 6750 2650 50  0000 C CNN
+F 2 "" H 6750 2650 50  0000 C CNN
+F 3 "" H 6750 2650 50  0000 C CNN
+	1    6750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT Ry
+U 1 1 585137FC
+P 7250 2650
+F 0 "Ry" H 7250 2570 50  0000 C CNN
+F 1 "10k LIN" H 7250 2650 50  0000 C CNN
+F 2 "" H 7250 2650 50  0000 C CNN
+F 3 "" H 7250 2650 50  0000 C CNN
+	1    7250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT Rp1
+U 1 1 5851395E
+P 7650 2500
+F 0 "Rp1" H 7650 2420 50  0000 C CNN
+F 1 "10k LIN" H 7650 2500 50  0000 C CNN
+F 2 "" H 7650 2500 50  0000 C CNN
+F 3 "" H 7650 2500 50  0000 C CNN
+	1    7650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT Rp?
+U 1 1 585139BD
+P 8100 2400
+F 0 "Rp?" H 8100 2320 50  0000 C CNN
+F 1 "10k LIN" H 8100 2400 50  0000 C CNN
+F 2 "" H 8100 2400 50  0000 C CNN
+F 3 "" H 8100 2400 50  0000 C CNN
+	1    8100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Teensy2.0 U?
+U 1 1 58513C3F
+P 5950 4100
+F 0 "U?" H 5950 5050 60  0000 C CNN
+F 1 "Teensy2.0" H 5950 3150 60  0000 C CNN
+F 2 "" H 6050 3050 60  0000 C CNN
+F 3 "" H 6050 3050 60  0000 C CNN
+	1    5950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585285B8
+P 5250 3350
+F 0 "#PWR?" H 5250 3100 50  0001 C CNN
+F 1 "GND" H 5250 3200 50  0000 C CNN
+F 2 "" H 5250 3350 50  0000 C CNN
+F 3 "" H 5250 3350 50  0000 C CNN
+	1    5250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 585285FA
+P 6900 3650
+F 0 "#PWR?" H 6900 3500 50  0001 C CNN
+F 1 "+5V" H 6900 3790 50  0000 C CNN
+F 2 "" H 6900 3650 50  0000 C CNN
+F 3 "" H 6900 3650 50  0000 C CNN
+	1    6900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3650 6900 3650
+$Comp
+L GND #PWR?
+U 1 1 58528642
+P 5250 4750
+F 0 "#PWR?" H 5250 4500 50  0001 C CNN
+F 1 "GND" H 5250 4600 50  0000 C CNN
+F 2 "" H 5250 4750 50  0000 C CNN
+F 3 "" H 5250 4750 50  0000 C CNN
+	1    5250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5852866A
+P 4950 4650
+F 0 "#PWR?" H 4950 4500 50  0001 C CNN
+F 1 "+5V" H 4950 4790 50  0000 C CNN
+F 2 "" H 4950 4650 50  0000 C CNN
+F 3 "" H 4950 4650 50  0000 C CNN
+	1    4950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4650 5250 4650
+$Comp
+L DB15 J?
+U 1 1 58528730
+P 10250 4850
+F 0 "J?" H 10270 5700 50  0000 C CNN
+F 1 "DB15" H 10200 4000 50  0000 C CNN
+F 2 "" H 10250 4850 50  0000 C CNN
+F 3 "" H 10250 4850 50  0000 C CNN
+	1    10250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58528A66
+P 9400 5550
+F 0 "#PWR?" H 9400 5400 50  0001 C CNN
+F 1 "+5V" H 9400 5690 50  0000 C CNN
+F 2 "" H 9400 5550 50  0000 C CNN
+F 3 "" H 9400 5550 50  0000 C CNN
+	1    9400 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5550 9800 5550
+Text GLabel 3850 3450 0    60   Input ~ 0
+PIN2_DB15
+Text GLabel 9200 5350 0    60   Input ~ 0
+PIN2_DB15
+Wire Wire Line
+	9800 5350 9200 5350
+Wire Wire Line
+	9800 5150 9000 5150
+Wire Wire Line
+	9000 5150 9000 4800
+Wire Wire Line
+	9000 4800 8750 4800
+$Comp
+L GND #PWR?
+U 1 1 5852929C
+P 9300 4950
+F 0 "#PWR?" H 9300 4700 50  0001 C CNN
+F 1 "GND" H 9300 4800 50  0000 C CNN
+F 2 "" H 9300 4950 50  0000 C CNN
+F 3 "" H 9300 4950 50  0000 C CNN
+	1    9300 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 4950 9800 4950
+Wire Wire Line
+	5250 3450 3850 3450
+Wire Wire Line
+	5250 3950 3950 3950
+Wire Wire Line
+	3950 3950 3950 3450
+Connection ~ 3950 3450
+Text GLabel 4600 3600 0    60   Input ~ 0
+PIN7_DB15
+Wire Wire Line
+	5250 3550 4900 3550
+Wire Wire Line
+	4900 3550 4900 3600
+Wire Wire Line
+	4900 3600 4600 3600
+Text GLabel 8750 4350 0    60   Input ~ 0
+PIN7_DB15
+Wire Wire Line
+	8750 4350 9800 4350
+Text GLabel 4600 3800 0    60   Input ~ 0
+PIN10_DB15
+Wire Wire Line
+	4600 3800 5050 3800
+Wire Wire Line
+	5050 3800 5050 3650
+Wire Wire Line
+	5050 3650 5250 3650
+Text GLabel 8450 5200 0    60   Input ~ 0
+PIN10_DB15
+Wire Wire Line
+	8450 5200 9350 5200
+Wire Wire Line
+	9350 5200 9350 5250
+Wire Wire Line
+	9350 5250 9800 5250
+Wire Wire Line
+	8250 4650 9050 4650
+Wire Wire Line
+	9050 4650 9050 5050
+Wire Wire Line
+	9050 5050 9800 5050
+Wire Wire Line
+	7900 4500 9450 4500
+Wire Wire Line
+	9450 4500 9450 4850
+Wire Wire Line
+	9450 4850 9800 4850
+Text GLabel 7950 4100 0    60   Input ~ 0
+PIN14_DB15
+Wire Wire Line
+	7950 4100 8050 4100
+Wire Wire Line
+	8050 4100 8050 4450
+Wire Wire Line
+	8050 4450 9800 4450
+$EndSCHEMATC
